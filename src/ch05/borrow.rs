@@ -115,11 +115,11 @@ pub fn bubble_sort_demo(){
 ///     compute(&i, &mut o); // o = 2
 ///  // let mut i = 20;
 ///  // compute(&i, &mut i);  // 借用检查不会允许该行编译成功
-
 /// }
 /// ```
 ///
 /// Base usage: 优化该函数
+///
 /// ```
 /// fn compute(input: &u32, output: &mut u32) {
 ///     let cached_input = *input;

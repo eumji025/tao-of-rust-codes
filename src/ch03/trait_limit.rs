@@ -81,6 +81,7 @@ pub fn trait_limit(){
 /// 可以省掉很多重复代码
 ///
 /// ```
+/// use std::ops::{Add, AddAssign};
 /// impl<R, T: Add<R> + Clone> AddAssign<R> for T {
 ///     fn add_assign(&mut self, rhs: R) {
 ///         let tmp = self.clone() + rhs;
@@ -101,7 +102,6 @@ pub fn trait_limit(){
 ///         println!("swimming")
 ///     }
 /// }
-/// impl<T> Swimmer for Diver<T> {}
 ///
 /// impl Swimmer for Diver<&'static str> {
 ///     fn swim(&self) {
@@ -151,7 +151,7 @@ pub fn trait_special(){
             println!("swimming")
         }
     }
-    impl<T> Swimmer for Diver<T> {}
+    // impl<T> Swimmer for Diver<T> {}
 
     impl Swimmer for Diver<&'static str> {
         fn swim(&self) {

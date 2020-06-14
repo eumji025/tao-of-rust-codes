@@ -8,7 +8,7 @@
 //!
 //!  这里记录本书中涉及的所有示例代码。
 //!  
-//!  [源码仓库 : ZhangHanDong/tao-of-rust-codes](https://github.com/ZhangHanDong/tao-of-rust-codes)
+//!  [源码仓库 : tao-of-rust-codes build by eumji025](https://github.com/eumji025/tao-of-rust-codes)
 //! <div>
 //! <img src="https://wx3.sinaimg.cn/mw690/71684decly1fymj6metsoj20gf0lm44e.jpg" height="300" width="220" />
 //! </div>
