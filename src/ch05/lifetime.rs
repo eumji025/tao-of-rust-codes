@@ -119,7 +119,6 @@ pub fn lifetime_demo() {
 ///    fn get_part(&self) -> &str {
 ///        self.part
 ///    }
-
 /// }
 /// fn main() {
 ///     let words = String::from("Sometimes think, the greatest sorrow than older");
@@ -145,6 +144,8 @@ pub fn lifetime_demo() {
 ///
 /// Base usage: 省略生命周期参数示例
 /// ```rust
+/// use std::process::Command;
+/// use std::io::BufWriter;
 /// fn print(s: &str);                                           // 省略
 /// fn print<'a>(s: &'a str);                                   // 展开
 /// fn debug(lvl: uint, s: &str);                              // 省略
